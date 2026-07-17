@@ -1,7 +1,7 @@
 import { ArrowRight, ChevronLeft, ChevronRight } from 'lucide-react'
 import React, { useEffect, useState } from 'react'
 import HeroProduct from '../assets/HeroProduct.png'
-import HeroProductSlide2 from '../assets/HeroProductSlide2.png'
+import HeroProductSlide2 from '../assets/HeroProductSlide2.webp'
 import HeroProductSlide3 from '../assets/HeroProductSlide3.png'
 import { Link } from 'react-router-dom'
 
