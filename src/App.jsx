@@ -7,7 +7,6 @@ import ShippingInfo from './Pages/ShippingInfo'
 import Payment from './Pages/Payment'
 import OrderSuccess from './Pages/OrderSuccess'
 import Wishlist from './Pages/Wishlist'
-//import Checkout from './Pages/Checkout'
 import { AnimatePresence } from 'motion/react'
 import Products from './Pages/Products'
 import Page404 from './Pages/Page404'
@@ -43,7 +42,6 @@ const App = () => {
           </Route>
 
           <Route element={<PrivateRoute/>}>
-            {/* <Route path='/checkout' element={<Checkout />}/> */}
             <Route path='/shipping' element={<ShippingInfo />}/>
             <Route path='/payment' element={<Payment />}/>
             <Route path='/ordersuccess' element={<OrderSuccess />}/>
