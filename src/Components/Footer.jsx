@@ -10,6 +10,7 @@ import facebookLogo from '../assets/facebookLogo.png'
 import instagramLogo from '../assets/instagramLogo.png'
 import xLogo from '../assets/xLogo.png'
 import linkedinLogo from '../assets/linkedinLogo.png'
+import toast from 'react-hot-toast'
 
 const Footer = () => {
 
@@ -151,6 +152,7 @@ const Footer = () => {
 
     const formSubmitHandler=(e)=>{
         e.preventDefault()
+        toast.success('Subscribed Successfully!')
         setEmail('')
     }
 
@@ -172,7 +174,7 @@ const Footer = () => {
                         ))}
                     </div>
                 </div>
-                <div className='flex flex-col gap-7'>
+                <div className='flex flex-col gap-3 md:gap-7 mt-3 md:mt-0'>
                     <div>
                         <h1 className='font-medium text-lg'>Quick Links</h1>
                     </div>
@@ -182,7 +184,7 @@ const Footer = () => {
                         ))}
                     </div>
                 </div>
-                <div className='flex flex-col gap-7'>
+                <div className='flex flex-col gap-3 md:gap-7 mt-3 md:mt-0'>
                     <div>
                         <h1 className='font-medium text-lg'>Customer Service</h1>
                     </div>
@@ -192,7 +194,7 @@ const Footer = () => {
                         ))}
                     </div>
                 </div>
-                <div className='flex flex-col gap-7'>
+                <div className='flex flex-col gap-3 md:gap-7 mt-3 md:mt-0'>
                     <div>
                         <h1 className='font-medium text-lg'>Company</h1>
                     </div>
@@ -202,7 +204,7 @@ const Footer = () => {
                         ))}
                     </div>
                 </div>
-                <div className='flex flex-col gap-7'>
+                <div className='flex flex-col gap-3 md:gap-7 mt-3 md:mt-0'>
                     <div>
                         <h1 className='font-medium text-lg'>Newsletter</h1>
                     </div>

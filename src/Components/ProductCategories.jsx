@@ -2,7 +2,7 @@ import React from 'react'
 import ElectronicsIcon from '../assets/ElectronicsIcon.png'
 import FashionIcon from '../assets/FashionIcon.png'
 import WatchesIcon from '../assets/WatchesIcon.png'
-import BeautyIcon from '../assets/BeautyIcon.png'
+import BeautyIcon from '../assets/BeautyIcon.webp'
 import { Link } from 'react-router-dom'
 import PageTransition from './PageTransition'
 

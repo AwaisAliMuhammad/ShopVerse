@@ -18,6 +18,7 @@ import Profile from './Pages/Profile'
 import ChangePassword from './Pages/ChangePassword'
 import MyOrders from './Pages/MyOrders'
 import ProductCategories from './Components/ProductCategories'
+import Deals from './Pages/Deals'
 
 const App = () => {
 
@@ -35,6 +36,7 @@ const App = () => {
           <Route path='*' element={<Page404/>} />
           <Route path='/cart' element={<Cart />}/>
           <Route path='/wishlist' element={<Wishlist />}/>
+          <Route path='/deals' element={<Deals/>}/>
 
           <Route element={<PublicRoute/>}>
             <Route path='/login' element={<Login/>}/>
